@@ -9,6 +9,7 @@ void sem_valor; // sem valor
   //nao possui string, porem aceita "uma frase"
   // cada tipo usa um espaço de memoria diferente
   // criar variavel: tipo nome_da_variavel;
+
   
   return 0;
 }
