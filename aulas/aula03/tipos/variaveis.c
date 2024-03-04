@@ -15,7 +15,8 @@ int main() {
 
   sexo = sexo_masculino; //valor fixo = constante (const)
 
-  
+   #define PI 3,14f; 
+  //define uma constante
 
     
   return 0;
