@@ -15,13 +15,13 @@ int main() {
 
   float salario_liquido = salario_bruto - valor_ir - valor_inss;
 
-  printf("------------------------------\n");
+  printf("\x1b[32m------------------------------\n");
   printf("   C O N T R A  C H E Q U E   \n");
-  printf("------------------------------\n");
-  printf("Salario Bruto: %13.2f\n", salario_bruto);
-  printf("IR: %23.2f\n", valor_ir);
-  printf("INSS: %21.2f\n", valor_inss);
-  printf("Salario Liquido: %11.2f\n", salario_liquido);
+  printf("------------------------------\x1b[0m\n");
+  printf("\x1b[34mSalario Bruto: %13.2f\x1b[0m\n", salario_bruto);
+  printf("\x1b[31mIR: %23.2f\n", valor_ir);
+  printf("\x1b[31mINSS: %21.2f\x1b[0m\n", valor_inss);
+  printf("\x1b[33mSalario Liquido: %11.2f\x1b[0m\n", salario_liquido);
   
   
   return 0;
