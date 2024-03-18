@@ -5,7 +5,7 @@
    int quantidade = 0;
    float valor = 0.0f;
   printf("preencha o nome do produto: ");
-   int deu_certo = scanf("%[^\n]s", nome);
+   int deu_certo = scanf("%[^\n]s", nome); // [^\n]s = ler até acabar o texto. Para ler apenas uma palavra, usar %s
 
    printf("preencha a quantidade: ");
    deu_certo = scanf("%i", &quantidade);
