@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 //exercicio 4
+/*
+4. Faça um programa que C que calcule os impostos incluídos no preço de um produto (preço final = (1 + ICMS + COFINS + PIS/PASEP) x preço inicial). Considere ICMS igual a 17%, COFINS igual a 7,6% e PIS/PASEP igual a 1,65%.
+*/
 
  int main() {
 
@@ -11,6 +14,10 @@
    const float PIS_PASEP = 0.0165;
 
    preco_inicial = 100.0f;
+
+   printf("Entre com o preco inicial: ");
+   int deu_certo = scanf("%f", &preco_final);
+   
    float valor_icms = preco_inicial * ICMS;
    float valor_cofins = preco_inicial * COFINS;
    float valor_pis_pasep = preco_inicial * PIS_PASEP;
