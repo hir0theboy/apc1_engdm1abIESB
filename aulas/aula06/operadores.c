@@ -64,5 +64,5 @@
    printf("o logaritmo do numero 1 na base 10 eh %.2f\n", logaritmo10);
    
    
-   return 0;
+   return 0; 
  }
