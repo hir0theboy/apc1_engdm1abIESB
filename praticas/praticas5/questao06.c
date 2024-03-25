@@ -16,6 +16,8 @@ int main () {
     deu_certo = scanf("%i", &c);
 
   double delta = pow(b, 2) - 4 * a * c;
+  printf("o valor de delta eh %.2f\n", delta);
+  
   double raiz1 = (-b + sqrt(delta)) / (2 * a);
   double raiz2 = (-b - sqrt(delta)) / (2 * a);
 
