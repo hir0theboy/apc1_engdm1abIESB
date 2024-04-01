@@ -5,10 +5,10 @@ int main() {
   int meses;
   int dias;
 
-  printf("entre com o valor em dias: ");
-  int deu_certo = scanf("%i", &dias);
+  printf("entre com o valor em anos: ");
+  int deu_certo = scanf("%i", &anos);
 
-  anos = dias / 365;
+  dias = anos * 365;
   meses = dias / 30;
 
   printf("o valor em anos eh %i, valor em meses: %i, valor em dias: %i\n", anos, meses, dias);
