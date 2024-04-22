@@ -12,6 +12,7 @@ int main() {
     } else {
       printf("O numero eh impar\n");
     }
+    
   }
   else {
     printf("Numero/caractere invalido\n");
