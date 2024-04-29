@@ -24,7 +24,8 @@ int main() {
     case 4: 
      printf("suas ultimas ligacoes feitas foram: (3812-3213) (2838-2132) (1283-2131)\n"); break;
     case 0:
-    printf("Saindo...      Ate logo!\n"); break;
+    printf("Saindo...\n");
+    printf("Ate logo!\n"); break;
     default:
     printf("Opção invalida!\n"); break;
   }
