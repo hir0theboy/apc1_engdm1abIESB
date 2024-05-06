@@ -8,10 +8,12 @@ int main() {
   int deu_certo = scanf("%li", &numero);
 
   if (deu_certo && numero >= 0) {
+    printf("%li! = ", numero);
     for(int i = numero; i > 1; i--) {
+      printf("%i x ", i);
       fatorial = fatorial * i;
     }
-    printf("o fatorial do %li = %li\n", numero, fatorial);
+    printf("1 = %li\n", fatorial);
   } else {
     printf("numero invalido");
   }
