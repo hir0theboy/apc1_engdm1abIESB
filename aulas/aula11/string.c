@@ -3,6 +3,7 @@
 
 int main() { // como c n possui o tipo string, eh usada uma matriz de caracteres
   char nome[20]; // na ultima posicao precisa ter \0 (obrigatoriamente)
+  memset(nome, '\0', 20); // evita lixo na memoria
 
   printf("entre com seu nome: ");
   int deu_certo = scanf("%[^\n]s", nome);
